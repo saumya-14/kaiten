@@ -4,7 +4,8 @@ import { revalidatePath } from 'next/cache'
 
 import User from '@/lib/database/models/user.model'
 
-import { handleError } from '@/lib/utils'
+
+import { handleError } from '../utils'
 import { connectToDatabase } from '../database'
 
 export type CreateUserParams = {
